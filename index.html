@@ -256,7 +256,7 @@ function buildPage(pageIdx) {
 }
 
 function getSpreadStart(p) {
-  return isMobile() ? p : Math.floor(p / 2) * 2;
+  return Math.floor(p / 2) * 2;
 }
 
 function ensurePage(p) {
